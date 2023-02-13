@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "PlacementService"
+  annotations:
+    github.com/project-slug: lihaiah/placement-service
 spec:
   type: service
   owner: user:guest
